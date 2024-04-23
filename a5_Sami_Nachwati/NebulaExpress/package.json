@@ -1,0 +1,31 @@
+{
+  "name": "nebulaexpress",
+  "version": "1.0.0",
+  "homepage": "https://SamiNachwati.github.io/NebulaExpress",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "expo build:web",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^0.12.52",
+    "expo": "^44.0.6",
+    "expo-app-loading": "^1.1.2",
+    "expo-font": "~11.10.3",
+    "expo-linear-gradient": "~12.7.2",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-web": "^0.19.10",
+    "undefined": "expo/config-plugins"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
